@@ -6,8 +6,8 @@
    * [About](#about)
    * [Technologies](#technologies)
    * [Projects](#projects)
-     * [Day 01](#)
-     * [Day 02](#)
+     * [Day 01](#day-01-repository-with-readme)
+     * [Day 02](#day-02-hello-world)
      * [Day 03](#)
      * [Day 04](#)
      * [Day 05](#)
@@ -37,8 +37,8 @@ A repository made from a challenge from the company Rocketseat. The challenge is
 - - -
 # Technologies
 
-- [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3/SASS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 - - -
@@ -47,12 +47,11 @@ A repository made from a challenge from the company Rocketseat. The challenge is
 All projects will be listed here.
 
 
-
 ## Day 01 - Repository with Readme
 
 Create the initial repository about the challenge, containing a very nice readme.
 
-[Readme]()
+[Readme](https://github.com/jonasmfernandes/21daysrocketseat)
 
 - - - 
 
@@ -60,9 +59,16 @@ Create the initial repository about the challenge, containing a very nice readme
 
 A customized hello world.
 
-[Hello World]()
+<img src="imgs/Captura%20de%20tela%202022-08-18%20020421.png" width="250">
 
-Code:
+[Website](https://21daysrocketseat-seven.vercel.app/)
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-02)
+
+## What i learned?
+
+- ::Before
+- Overflow
 - - - 
 
 ## Day 03 - 
