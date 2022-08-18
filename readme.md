@@ -32,7 +32,7 @@
 
 # About
 
-This repository was created with the purpose of putting into practice what I am learning in the JavaScript language.
+A repository made from a challenge from the company Rocketseat. The challenge is 21 days of code, coding 1 hour a day. Getting better and better.
 
 - - -
 # Technologies
@@ -48,23 +48,19 @@ All projects will be listed here.
 
 
 
-## Day 01 - 
+## Day 01 - Repository with Readme
 
-Title
+Create the initial repository about the challenge, containing a very nice readme.
 
-[Name]()
-
-Code:
-
-
+[Readme]()
 
 - - - 
 
-## Day 02 - 
+## Day 02 - Hello World
 
-Title
+A customized hello world.
 
-[Name]()
+[Hello World]()
 
 Code:
 - - - 
