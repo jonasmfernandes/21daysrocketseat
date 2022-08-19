@@ -45,6 +45,22 @@ body {
   transition: 2s;
 }
 
+#cont {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(43, 43, 43, 0);
+  padding: 0px 20px 20px 0px;
+}
+#cont a {
+  text-decoration: none;
+  color: rgb(0, 255, 55);
+  background-color: rgba(43, 43, 43, 0);
+}
+#cont a:hover {
+  text-decoration: underline;
+}
+
 @-webkit-keyframes effect {
   0% {
     transform: translateY(-2500px);
