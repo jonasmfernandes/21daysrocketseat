@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Button</title>
+    <link rel="stylesheet" href="../day-03/assets/style.css" />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  </head>
+  <body>
+    <div class="btn">
+      <button onclick="clickFunction()"id="button" class="animate__animated animate__bounce">Click me</button>
+      <div id="name"></div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".btn"),{
+		max: 25,
+		speed: 900
+	});
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
