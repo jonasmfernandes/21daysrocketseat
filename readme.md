@@ -8,7 +8,7 @@
    * [Projects](#projects)
      * [Day 01](##day-01-repository-with-readme)
      * [Day 02](##day-02-hello-world)
-     * [Day 03](#)
+     * [Day 03](##day-03-animated-button)
      * [Day 04](#)
      * [Day 05](#)
      * [Day 06](#)
@@ -71,13 +71,16 @@ A customized hello world.
 - Overflow
 - - - 
 
-## Day 03 - 
+## Day 03 - Animated Button
 
-Title
+A animated button.
 
-[Name]()
+<img src="imgs/Captura%20de%20tela%202022-08-19%20022255.png" width="250">
 
-Code:
+
+[Website]()
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-03)
 - - - 
 
 ## Day 04 - 
