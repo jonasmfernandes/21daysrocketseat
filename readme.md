@@ -9,7 +9,7 @@
      * [Day 01](##day-01-repository-with-readme)
      * [Day 02](##day-02-hello-world)
      * [Day 03](##day-03-animated-button)
-     * [Day 04](#)
+     * [Day 04](#day-04-calculator)
      * [Day 05](#)
      * [Day 06](#)
      * [Day 07](#)
@@ -83,13 +83,13 @@ A animated button.
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-03)
 - - - 
 
-## Day 04 - 
+## Day 04 - Calculator
 
-Title
+Calculator.
 
-[Name]()
+<img src="imgs/Captura%20de%20tela%202022-08-20%20040225.png" width="250">
 
-Code:
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-04)
 - - - 
 
 ## Day 05 - 
