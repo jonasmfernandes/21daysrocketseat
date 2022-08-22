@@ -90,6 +90,8 @@ Calculator.
 <img src="imgs/Captura%20de%20tela%202022-08-20%20040225.png" width="250">
 
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-04)
+
+[Website](https://calculator-rocketseat.vercel.app/)
 - - - 
 
 ## Day 05 - 
