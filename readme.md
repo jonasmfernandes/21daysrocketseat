@@ -94,14 +94,14 @@ Calculator.
 [Website](https://calculator-rocketseat.vercel.app/)
 - - - 
 
-## Day 05 - 
+## Day 05 - 404 Error Not Found
 
-Title
+404 Error not found page.
 
-[Name]()
+<img src="imgs/Captura%20de%20tela%202022-08-22%20013534.png" width="250">
 
-Code:
-
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-05)
+[Website](https://404entf-day05.vercel.app/)
 - - -
 
 ## Day 06 - 
