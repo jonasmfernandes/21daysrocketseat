@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins&display=swap');
+
+$font: 'Luckiest Guy', cursive;
+$font2: 'Poppins', sans-serif;
+
+@mixin reset() {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flex(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    @include reset();
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100vh;
+    @include flex();
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 0px 22px 2px rgba(0,0,0,0.74);
+
+    img {
+        width: 150px;
+    }
+    h2{
+        font-family: $font2;
+        font-size: 0.6em;
+        
+        text-align: center;
+    }
+    p {
+        font-family: $font2;
+        font-size: 0.6em;
+        text-align: center;
+        margin-top: 10px;
+    }
+    button {
+        padding: 8px 10px;
+        color: white;
+        background-color: rgb(238, 39, 82);
+        border: none;
+        border-radius: 8px;
+        transition: 0.3s;
+        font-size: 0.6em;
+        cursor: pointer;
+
+        &:hover {
+            font-size: 0.8rem;    
+            transition: 0.3s;
+            filter: brightness(1.2);
+            
+        }
+    }
+    .ctt {
+        padding: 6px 10px;
+        color: rgb(238, 39, 82);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(238, 39, 82);
+        border-radius: 8px;
+        font-size: 0.6em;
+        cursor: pointer;
+    }
+}
+
+.cont {
+    @include flex();
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 400px;
+        height: 300px;
+        img{
+            width:180px;
+        }
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 920px) {
+    .container {
+        width: 600px;
+        height: 300px;
+        img{
+            width:220px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+    }
+}
