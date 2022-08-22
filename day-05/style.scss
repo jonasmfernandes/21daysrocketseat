@@ -107,3 +107,37 @@ body{
         }
     }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 2500px) {
+    .container {
+        width: 800px;
+        height: 500px;
+        img{
+            width:30%;
+        }
+        h2 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+        button {
+            font-size: 1.1rem;
+            &:hover {
+                font-size: 1.3rem;    
+                transition: 0.3s;
+                filter: brightness(1.2);
+                
+            }
+        }
+        .ctt {
+            font-size: 1.1rem;
+            &:hover {
+                font-size: 1.3rem;    
+                transition: 0.3s;
+                filter: brightness(1.2);
+                
+            }
+        }
+    }
+}

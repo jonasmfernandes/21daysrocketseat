@@ -93,4 +93,35 @@ body {
   .container p {
     margin-bottom: 20px;
   }
+}
+@media screen and (min-width: 1200px) and (max-width: 2500px) {
+  .container {
+    width: 800px;
+    height: 500px;
+  }
+  .container img {
+    width: 30%;
+  }
+  .container h2 {
+    font-size: 1rem;
+  }
+  .container p {
+    font-size: 0.9rem;
+  }
+  .container button {
+    font-size: 1.1rem;
+  }
+  .container button:hover {
+    font-size: 1.3rem;
+    transition: 0.3s;
+    filter: brightness(1.2);
+  }
+  .container .ctt {
+    font-size: 1.1rem;
+  }
+  .container .ctt:hover {
+    font-size: 1.3rem;
+    transition: 0.3s;
+    filter: brightness(1.2);
+  }
 }/*# sourceMappingURL=style.css.map */
