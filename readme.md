@@ -101,24 +101,32 @@ Calculator.
 <img src="imgs/Captura%20de%20tela%202022-08-22%20013534.png" width="250">
 
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-05)
+
 [Website](https://404entf-day05.vercel.app/)
 - - -
 
-## Day 06 - 
+## Day 06 - Glassmorphism
 
-Title
+Glassmorphism
 
-[Name]()
+<img src="imgs/Captura%20de%20tela%202022-08-22%20013534.Captura%20de%20tela%202022-08-24%20015206.png" width="250">
 
-Code:
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-06)
+
+[Website](https://glassmorphism-five.vercel.app/)
+
 
 - - - 
 
-## Day 07 - 
+## Day 07 - Cronometer
 
-Title
+Cronometer
 
-[Name]()
+<img src="imgs/Captura%20de%20tela%202022-08-22%20013534.Captura%20de%20tela%202022-08-24%20015206.Captura%20de%20tela%202022-08-24%20015529.png" width="250">
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-07)
+
+[Website](https://cronometer-d7.vercel.app/)
 
 Code:
 
