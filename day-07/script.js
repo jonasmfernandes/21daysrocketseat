@@ -2,7 +2,7 @@ var h = 0;
 var m = 0;
 var s = 0;
 
-var time = 20;
+var time = 10;
 var cron;
 
 function start() {
