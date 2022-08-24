@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(U1G9Ec.webp);
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10vh 10vw;
+  border-radius: 10px;
+}
+.container #counter {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 17px;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+.container button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(255, 255, 255, 0.6);
+}
+.container button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */
