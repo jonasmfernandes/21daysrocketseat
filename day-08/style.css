@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(alfons-morales-YLSwjSy7stw-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding: 0px 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+header nav ul li {
+  display: inline;
+}/*# sourceMappingURL=style.css.map */
