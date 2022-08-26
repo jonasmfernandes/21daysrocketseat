@@ -1,36 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
 
-$font: 'Poppins', sans-serif;
-$font2: 'Shadows Into Light', cursive;
+$font: "Poppins", sans-serif;
+$font2: "Shadows Into Light", cursive;
 
-@mixin reset(){
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@mixin reset() {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 * {
-    @include reset();
+  @include reset();
+  font-family: $font;
 }
 
 body {
-    background-image: url(alfons-morales-YLSwjSy7stw-unsplash\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(alfons-morales-YLSwjSy7stw-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
-    padding: 0px 10vw;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 0px 10vw;
+  font-size: 1.3rem;
+  color: white;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 8vh;
+  img {
+    width: 15vw;
+  }
+  select {
+    border: none;
     background-color: transparent;
-
-    nav {
-        ul {
-           li {
-            display: inline;
-           }
-        }
+    font-size: 1.2rem;
+    color: white;
+   
+    option {
+        font-size: 1.2rem;
+        color: white;
     }
+  }
+  nav {
+    ul {
+      li {
+        display: inline;
+        cursor: pointer;
+      }
+    }
+  }
 }
