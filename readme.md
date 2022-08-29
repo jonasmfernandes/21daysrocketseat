@@ -132,6 +132,17 @@ Code:
 
 - - -
 
+## Day 08 - Landing page
+
+Landing page.
+
+<img src="#" width="250">
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-08)
+
+[Website]()
+
+Code:
 # Author
 
 <img src="imgs/Frame%201%20(2).png" width="150">
