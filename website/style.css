@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,37 +8,1107 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: #1a1a1a;
+  background-color: #3d3d3d;
 }
 
 h1 {
   text-align: center;
-  margin-top: 2vh;
 }
 
-p, h1 {
+p, h2, h1, a {
   color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13vh;
 }
 
 main {
-  margin-top: 10vh;
+  margin: 10vh 20vw;
   padding: 0 3vh;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
-main section {
+main .section1 {
   width: 200px;
   height: 200px;
-  background-color: rgb(75, 75, 75);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-right: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
 }
-main section h2 {
+main .section1 h2 {
   text-align: center;
   font-size: 1.3rem;
-  color: white;
+  color: transparent;
 }
-main section p {
-  color: rgba(255, 255, 255, 0.769);
-  margin: 0 10px;
+main .section1 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+main .section1 a:hover {
+  transform: scale(1.2, 1.2);
+}
+main .section1:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+main .section1:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+main .section1:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d2.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section2 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section2 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section2 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section2:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section2:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section2:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section3 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d3.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section3 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section3 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section3 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section3:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section3:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section3:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section4 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d4.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section4 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section4 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section4 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section4:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section4:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section4:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section5 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d5.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section5 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section5 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section5 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section5:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section5:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section5:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section6 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d6.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section6 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section6 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section6 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section6:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section6:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section6:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section7 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/d7.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section7 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section7 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section7 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section7:hover {
+  background: linear-gradient(142deg, rgb(5, 5, 5) 0%, rgb(40, 40, 40) 52%, rgb(80, 80, 80) 100%);
+  transition: 0.3s;
+}
+.section7:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section7:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section8 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section8 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section8 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section8 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section8:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section8:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section8:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section9 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section9 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section9 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section9 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section9:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section9:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section9:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section10 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section10 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section10 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section10 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section10:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section10:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section10:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section11 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section11 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section11 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section11 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section11:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section11:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section11:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section12 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section12 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section12 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section12 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section12:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section12:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section12:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section13 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section13 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section13 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section13 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section13:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section13:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section13:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section14 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section14 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section14 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section14 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section14:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section14:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section14:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section15 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section15 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section15 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section15 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section15:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section15:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section15:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section16 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section16 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section16 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section16 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section16:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section16:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section16:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section17 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section17 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section17 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section17 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section17:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section17:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section17:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section18 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section18 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section18 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section18 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section18:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section18:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section18:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section19 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section19 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section19 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section19 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section19:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section19:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section19:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section20 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section20 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section20 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section20 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section20:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section20:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section20:hover a {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.section21 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  background-clip: border-box;
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811.png);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section21 h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: transparent;
+}
+.section21 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: azure;
+  color: rgb(20, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5vh;
+  visibility: hidden;
+}
+.section21 a:hover {
+  transform: scale(1.2, 1.2);
+}
+.section21:hover {
+  background-image: url(imgs/Captura\ de\ tela\ 2022-09-05\ 132811\ 2.png);
+  transition: 0.3s;
+}
+.section21:hover h2 {
+  color: white;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.section21:hover a {
+  visibility: visible;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
