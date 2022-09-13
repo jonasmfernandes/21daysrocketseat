@@ -34,6 +34,9 @@
 
 A repository made from a challenge from the company Rocketseat. The challenge is 21 days of code, coding 1 hour a day. Getting better and better.
 
+[Portfolio Website](https://portfolio-21daysofrocketseat.vercel.app/)
+
+
 - - -
 # Technologies
 
@@ -81,6 +84,7 @@ A animated button.
 [Website](https://button-mocha.vercel.app/)
 
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-03)
+
 - - - 
 
 ## Day 04 - Calculator
@@ -92,6 +96,7 @@ Calculator.
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-04)
 
 [Website](https://calculator-rocketseat.vercel.app/)
+
 - - - 
 
 ## Day 05 - 404 Error Not Found
@@ -100,9 +105,10 @@ Calculator.
 
 <img src="imgs/Captura%20de%20tela%202022-08-22%20013534.png" width="250">
 
+[Website](https://404entf-day05.vercel.app/)
+
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-05)
 
-[Website](https://404entf-day05.vercel.app/)
 - - -
 
 ## Day 06 - Glassmorphism
@@ -111,10 +117,9 @@ Glassmorphism
 
 <img src="imgs/Captura%20de%20tela%202022-08-22%20013534.Captura%20de%20tela%202022-08-24%20015206.png" width="250">
 
-[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-06)
-
 [Website](https://glassmorphism-five.vercel.app/)
 
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-06)
 
 - - - 
 
@@ -124,25 +129,24 @@ Cronometer
 
 <img src="imgs/Captura%20de%20tela%202022-08-22%20013534.Captura%20de%20tela%202022-08-24%20015206.Captura%20de%20tela%202022-08-24%20015529.png" width="250">
 
-[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-07)
-
 [Website](https://cronometer-d7.vercel.app/)
 
-Code:
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-07)
 
 - - -
 
-## Day 08 - Landing page
+## Day 08 - Switch Button
 
-Landing page.
+Switch Button.
 
 <img src="#" width="250">
 
 [Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-08)
 
-[Website]()
+[Website](https://day08-switch-button.vercel.app/)
 
-Code:
+- - - 
+
 # Author
 
 <img src="imgs/Frame%201%20(2).png" width="150">
