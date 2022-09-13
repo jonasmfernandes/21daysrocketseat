@@ -147,6 +147,17 @@ Switch Button.
 
 - - - 
 
+## Day 09 - Loading 
+
+Loading animation.
+
+<img src="#" width="250">
+
+[Website](https://loading-day09.vercel.app/) 
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-09)
+
+- - - 
 # Author
 
 <img src="imgs/Frame%201%20(2).png" width="150">
