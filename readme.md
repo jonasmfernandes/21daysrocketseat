@@ -93,9 +93,9 @@ Calculator.
 
 <img src="imgs/Captura%20de%20tela%202022-08-20%20040225.png" width="250">
 
-[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-04)
-
 [Website](https://calculator-rocketseat.vercel.app/)
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-04)
 
 - - - 
 
@@ -115,7 +115,7 @@ Calculator.
 
 Glassmorphism
 
-<img src="imgs/Captura%20de%20tela%202022-08-22%20013534.Captura%20de%20tela%202022-08-24%20015206.png" width="250">
+<img src="imgs/dia 08.png"
 
 [Website](https://glassmorphism-five.vercel.app/)
 
@@ -141,9 +141,9 @@ Switch Button.
 
 <img src="#" width="250">
 
-[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-08)
-
 [Website](https://day08-switch-button.vercel.app/)
+
+[Code](https://github.com/jonasmfernandes/21daysrocketseat/tree/main/day-08)
 
 - - - 
 
